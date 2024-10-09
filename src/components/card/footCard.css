@@ -1,0 +1,26 @@
+.footCard {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px; /* Space between the icons */
+    margin-top: 25px; /* Adjust this value to position it better */
+    margin-bottom: 20px;
+}
+
+.footCard a {
+    display: inline-block; /* Ensure the link has proper dimensions */
+    margin: 0 10px; /* Additional margin between icons */
+}
+
+.footCard img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Ensure the icons are uniformly sized */
+    transition: transform 0.3s ease; /* Optional: Smooth hover effect */
+}
+
+.footCard a:hover img {
+    transform: scale(1.2); /* Optional: Scale up on hover */
+}
+
+hr {
+    margin-top: 35px;
+}

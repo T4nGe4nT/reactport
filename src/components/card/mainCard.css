@@ -1,0 +1,59 @@
+.main-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(249, 249, 249, 1);
+    box-shadow: #1a1a1a 10px 10px 10px 0px;
+    max-width: 900px;
+    /*max-height: 900px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Poetsen One', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn-black {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: border-color 0.25s, background-color 0.25s;
+}
+
+.btn-black:hover {
+    background-color: #333333;
+    transform: scale(1.2); /* Optional: Scale up on hover */
+}
+
+.btn-black.active {
+    background-color: #333333;
+    transform: scale(1.2);
+}
+
+
+/* Center buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 10px;
+}
