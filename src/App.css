@@ -17,7 +17,7 @@ body, html {
   background-size: cover;
   background-position: 50% 50%; /* Default center position */
   z-index: -1; /* Ensure it stays behind the content */
-  transition: background-position 0.5s ease; /* Smooth transition for the effect */
+  transition: background-position 2.0s ease; /* Smooth transition for the effect */
 }
 
 :root {

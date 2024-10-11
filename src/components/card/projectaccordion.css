@@ -1,0 +1,18 @@
+.accordion-body img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.accordion-body h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.accordion-body p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
